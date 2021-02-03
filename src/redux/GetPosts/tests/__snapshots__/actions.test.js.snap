@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getPosts loadDataSucess action 1`] = `
+Array [
+  Object {
+    "data": Object {
+      "city": "Gwenborough",
+      "email": "Sincere@april.biz",
+      "name": "Leanne Graham",
+      "phone": "1-770-736-8031 x56442",
+      "steet": "Kulas Light",
+    },
+    "type": "LOAD_DATA_SUCCESS",
+  },
+]
+`;

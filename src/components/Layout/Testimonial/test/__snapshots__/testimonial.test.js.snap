@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Testimonial/> Should shallow correctly 1`] = `
+"<div data-test=\\"testimonial\\">
+  <section className=\\"bg-gray-100 relative\\">
+    <div className=\\"container mx-auto px-6 py-20\\">
+      <h2 className=\\"text-4xl font-bold text-center text-gray-800 mb-8\\">
+        Testimonials
+      </h2>
+      <div className=\\"flex flex-wrap\\">
+        <div className=\\"w-full  md:w-1/3 px-2 mb-4\\">
+          <div className=\\"bg-white rounded shadow py-2\\">
+            <p className=\\"text-gray-800 text-base px-6 mb-5\\">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+            </p>
+            <p className=\\"text-gray-500 text-xs md:text-sm px-6\\">
+              John Doe
+            </p>
+          </div>
+        </div>
+        <div className=\\"w-full md:w-1/3 px-2 mb-4\\">
+          <div className=\\"bg-white rounded shadow py-2\\">
+            <p className=\\"text-gray-800 text-base px-6 mb-5\\">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. 
+            </p>
+            <p className=\\"text-gray-500 text-xs md:text-sm px-6\\">
+              Jane Doe
+            </p>
+          </div>
+        </div>
+        <div className=\\"w-full  md:w-1/3 px-2 mb-4\\">
+          <div className=\\"bg-white rounded shadow py-2\\">
+            <p className=\\"text-gray-800 text-base px-6 mb-5\\">
+              &quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis  laboriosam. 
+            </p>
+            <p className=\\"text-gray-500 text-xs md:text-sm px-6\\">
+              1914 translation by H. Rackham
+            </p>
+          </div>
+        </div>
+      </div>
+      <Link href=\\"/happycustomers\\">
+        <button className=\\"bg-blue-500 font-bold rounded py-4 px-8 shadow-lg uppercase absolute  right-0 \\">
+          View More
+        </button>
+      </Link>
+    </div>
+  </section>
+</div>"
+`;

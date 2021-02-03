@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header/> Should shallow correctly 1`] = `
+"<div data-test=\\"HeaderComponent\\">
+  <div className=\\" py-20 from-blue-500 to-purple-400 bg-gradient-to-r w-full h-64 block\\">
+    <div className=\\"container mx-auto px-6\\">
+      <h2 className=\\" uppercase font-bold text-2xl text-black\\">
+        hello
+         
+      </h2>
+      <h3 className=\\"text-2xl mb-8 text-gray-200\\">
+        test
+      </h3>
+    </div>
+  </div>
+</div>"
+`;
