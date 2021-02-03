@@ -10,9 +10,8 @@ const initialState = {
 function reducer(state =initialState, action) {
   console.log(action,"action")
   switch (action.type) {
-    case HYDRATE: {
+    case HYDRATE:
       return { ...state, ...action.payload };
-    }
     case actionTypes.FAILURE:
       return {
         ...state,

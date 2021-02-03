@@ -5,16 +5,17 @@ function* loadDataSaga() {
   try {
     const res = yield fetch('https://jsonplaceholder.typicode.com/users')
     const data = yield res.json()
+    console.log(data);
     yield put(loadDataSuccess(data))
   } catch (err) {
     yield put(failure(err))
   }
 }
 
-function* rootSaga() {
-  yield all([
-    takeLatest(actionTypes.LOAD_DATA, loadDataSaga),
-  ])
-}
+// function* rootSaga() {
+//   yield all([
+//     takeLatest(actionTypes.LOAD_DATA, loadDataSaga),
+//   ])
+// }
 
-export default rootSaga
+export default loadDataSaga
