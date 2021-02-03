@@ -9,10 +9,9 @@ import Header from "components/Layout/Header/Header";
 
 function HappyCustomers() {
   const dispatch = useDispatch()
-  const loading = useSelector((state) => state.isLoading);
-  const placeholderData = useSelector((state) => state.placeholderData);
-  console.log(placeholderData,"pl")
-  const error = useSelector((state) => state.error);
+  const loading = useSelector((state) => state.getPostsReducer.isLoading);
+  const placeholderData = useSelector((state) => state.getPostsReducer.placeholderData);
+  const error = useSelector((state) => state.getPostsReducer.error);
 
   return (
     <>
@@ -49,7 +48,6 @@ function HappyCustomers() {
 export const getStaticProps = wrapper.getStaticProps(async ({ store }) => {
   store.dispatch(loadData());
   store.dispatch(END);
-
   await store.sagaTask.toPromise();
 });
 
