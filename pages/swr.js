@@ -14,7 +14,6 @@ function Swr() {
   if (!data) return "Loading...";
   return (
     <>
-    <Navbar />
     <div class="mt-0 border-t-2 border-gray-300 flex flex-col items-center"></div>
       <p>basic Swr Fetching</p>
       <div>

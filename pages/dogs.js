@@ -1,12 +1,9 @@
 import React from "react";
 import axios from "axios";
-import Navbar from "components/Layout/Navbar/navbar";
-import Footer from "components/Layout/Footer/footer";
 
 function Dogs({ dogs }) {
   return (
     <div>
-      <Navbar />
       <div className=" w-full flex  from-blue-500 to-purple-400 bg-gradient-to-r">
         <main className="w-full overflow-y-auto">
           <div className="px-10 mt-5">
@@ -32,7 +29,6 @@ function Dogs({ dogs }) {
           </div>
         </main>
       </div>
-      <Footer />
     </div>
   );
 }

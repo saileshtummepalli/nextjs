@@ -3,8 +3,6 @@ import { useSelector ,useDispatch} from "react-redux";
 import { wrapper } from "../src/store/index";
 import { loadData } from "../src/redux/GetPosts/actions";
 import { END } from "redux-saga";
-import Navbar from "components/Layout/Navbar/navbar";
-import Footer from "components/Layout/Footer/footer";
 import Header from "components/Layout/Header/Header";
 
 function HappyCustomers() {
@@ -15,7 +13,6 @@ function HappyCustomers() {
 
   return (
     <>
-      <Navbar />
       <div className=" w-full h-full   from-blue-500 to-purple-400 bg-gradient-to-r">
         <Header
           letsgo={"here are the happy hoomans"}
@@ -41,7 +38,6 @@ function HappyCustomers() {
           {error && <p style={{ color: "red" }}>Error: {error.message}</p>}
         </div>
       </div>
-      <Footer />
     </>
   );
 }

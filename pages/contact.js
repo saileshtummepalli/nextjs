@@ -6,7 +6,6 @@ import React from 'react'
 function Contact() {
     return (
         <>
-        <Navbar/>
         <div className=" w-full  h-100 flex  from-blue-500 to-purple-400 bg-gradient-to-r">
         <div><section>
         <div class="container mx-auto px-6 py-20">

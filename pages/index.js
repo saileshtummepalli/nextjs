@@ -1,5 +1,5 @@
 import Footer from "components/Layout/Footer/footer";
-import Navbar from "components/Layout/Navbar/navbar";
+
 import Testimonial from "components/Layout/Testimonial/Testimonial";
 import Head from "next/head";
 import Link from "next/link"
@@ -10,10 +10,8 @@ export default function Home() {
       <Head>
         <title>poc</title>
       </Head>
-      <Navbar/>
       <Header letsgo={"lets go"} hello={"Hello Human"} button={"true"}/>
       <Testimonial/>
-      <Footer/>
     </div>
   );
 }
