@@ -1,12 +1,10 @@
-import Footer from 'components/Layout/Footer/footer'
 import ContactUsForm from 'components/Layout/Forms/ContactUsForm'
-import Navbar from 'components/Layout/Navbar/navbar'
 import React from 'react'
 
 function Contact() {
     return (
         <>
-        <div className=" w-full  h-100 flex  from-blue-500 to-purple-400 bg-gradient-to-r">
+        <div className=" w-full  h-auto flex  from-blue-500 to-purple-400 bg-gradient-to-r">
         <div><section>
         <div class="container mx-auto px-6 py-20">
           <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">
@@ -36,10 +34,9 @@ function Contact() {
       </section>
             </div>
         </div>
-        <div className="from-blue-500 to-purple-400 bg-gradient-to-r w-full h-44 block">
+        <div className="from-blue-500 to-purple-400 bg-gradient-to-r w-full h-44 ">
         <ContactUsForm/>
         </div>
-        <Footer/>
         </>
     )
 }

@@ -20,15 +20,16 @@ export default function Post({id,name,email}) {
 
 export async function getStaticProps(context) {
   const { slug } = context.params;
-
   const data = await fetch(
     `https://jsonplaceholder.typicode.com/comments/${slug}`
     
   ).then((res) => res.json());
-    console.log(data,"data")
   return {
     props: {
       ...data,
+      //ISR
+      //Re-generate the post at most once per  3 second if there is a new request 
+      revalidate:3
     },
   };
 }
